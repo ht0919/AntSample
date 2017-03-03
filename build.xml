@@ -1,0 +1,6 @@
+<project name="Hello" default="build">
+  <target name="build">
+    <javac srcdir="." includeantruntime="false" />
+    <java classname="Hello" classpath="." />
+  </target>
+</project>
